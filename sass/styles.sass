@@ -1,0 +1,13 @@
+@import "compass"
+// @import "compass/reset"
+
+@import "icons/*.png"
+@include all-icons-sprites
+
+$height: icons-sprite-height(mail)
+$width: icons-sprite-width(mail)
+
+.sprites div
+	display: block
+	height: $height
+	width: $width
